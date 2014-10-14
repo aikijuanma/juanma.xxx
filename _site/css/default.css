@@ -1,16 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic);
-.libre-baskerville-bold {
+.libre-baskerville {
   font-family: 'Libre Baskerville', serif;
+}
+.bold {
   font-style: normal;
   font-weight: 700;
 }
-.libre-baskerville-italic {
-  font-family: 'Libre Baskerville', serif;
+.italic {
   font-style: italic;
   font-weight: 400;
 }
-.libre-baskerville-normal {
-  font-family: 'Libre Baskerville', serif;
+.normal {
   font-style: normal;
   font-weight: 400;
 }
@@ -84,11 +84,45 @@ input[type="search"] {
   -o-transition: .3s ease;
   transition: .3s ease;
 }
+a,
+a:active,
+a:focus,
+a:link,
+a:visited {
+  color: #000000;
+}
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+.site-wrapper {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
 html {
   font-size: 62.5%;
   /* Sets up the Base 10 stuff */
 
 }
 html body {
+  font-family: 'Libre Baskerville', serif;
   display: none;
+  background-color: #ffffff;
+  color: #000000;
+}
+html body .cover .cover-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+html body .mastfoot {
+  color: #000000;
 }

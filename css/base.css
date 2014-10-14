@@ -1,16 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic);
-.libre-baskerville-bold {
+.libre-baskerville {
   font-family: 'Libre Baskerville', serif;
+}
+.bold {
   font-style: normal;
   font-weight: 700;
 }
-.libre-baskerville-italic {
-  font-family: 'Libre Baskerville', serif;
+.italic {
   font-style: italic;
   font-weight: 400;
 }
-.libre-baskerville-normal {
-  font-family: 'Libre Baskerville', serif;
+.normal {
   font-style: normal;
   font-weight: 400;
 }
