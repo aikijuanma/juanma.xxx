@@ -108,6 +108,7 @@ h6 {
   -webkit-box-shadow: none;
 }
 html {
+  background-color: #000000;
   font-size: 62.5%;
   /* Sets up the Base 10 stuff */
 
